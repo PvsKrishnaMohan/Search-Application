@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.main-container {
+    font-family: "Roboto";
+}
+
+.wiki-search-header {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #d5cdcd;
+    padding-top: 30px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    margin-bottom: 40px;
+    background-color: black;
+}
+
+.wiki-logo {
+    width: 130px;
+    margin-bottom: 30px;
+}
+
+.search-input {
+    font-size: 18px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #d5cdcd;
+    border-radius: 3px;
+    padding: 10px;
+
+}
+
+.search-results {
+    width: 100%;
+    padding-left: 20px;
+}
+
+.result-item {
+    margin-bottom: 20px;
+
+}
+
+.result-title {
+    font-size: 22px;
+    background: #CB60B3;
+    background: -webkit-linear-gradient(to right, #CB60B3 0%, #C146A1 0%, #A80077 45%, #4747FF 95%, #DB36A4 100%);
+    background: -moz-linear-gradient(to right, #CB60B3 0%, #C146A1 0%, #A80077 45%, #4747FF 95%, #DB36A4 100%);
+    background: linear-gradient(to right, #CB60B3 0%, #C146A1 0%, #A80077 45%, #4747FF 95%, #DB36A4 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.link-description {
+    color: #444444;
+    font-size: 15px;
+    background: #FF0000;
+    background: -webkit-linear-gradient(to left, #FF0000 0%, #000000 45%);
+    background: -moz-linear-gradient(to left, #FF0000 0%, #000000 45%);
+    background: linear-gradient(to left, #FF0000 0%, #000000 45%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.result-url {
+    color: #006621;
+    text-decoration: none;
+    background: #04610A;
+    background: -webkit-linear-gradient(to left, #04610A 0%, #00FF00 16%, #0C3305 100%);
+    background: -moz-linear-gradient(to left, #04610A 0%, #00FF00 16%, #0C3305 100%);
+    background: linear-gradient(to left, #04610A 0%, #00FF00 16%, #0C3305 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.name {
+    background: #FF0000;
+    background: -webkit-linear-gradient(to left, #FF0000 0%, #ffff00 50%, #FF0000 100%);
+    background: -moz-linear-gradient(to left, #FF0000 0%, #ffff00 50%, #FF0000 100%);
+    background: linear-gradient(to left, #FF0000 0%, #ffff00 50%, #FF0000 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    font-size: 20px;
+    font-weight: 600;
+}
